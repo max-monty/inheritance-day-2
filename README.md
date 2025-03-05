@@ -1,18 +1,45 @@
+# Java Inheritance Demo
+
+This project demonstrates object-oriented programming concepts in Java, specifically focusing on inheritance and constructors. The project includes examples of class hierarchies and constructor overloading.
+
+## Project Structure
+
+The project contains the following main classes:
+- `Warrior.java`: A class demonstrating inheritance and constructor overloading
+- `ConstructorDemo.java`: Contains the main method with examples of creating Warrior objects
+
+## Prerequisites
+
+- Java Development Kit (JDK) installed on your system
+- Basic understanding of Java programming concepts
+
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+1. Clone this repository to your local machine
+2. Navigate to the project directory
+3. Compile the Java files:
+   ```bash
+   javac src/*.java
+   ```
+4. Run the demo program:
+   ```bash
+   java -cp src ConstructorDemo
+   ```
 
-## Folder Structure
+## Example Usage
 
-The workspace contains two folders by default, where:
+The `ConstructorDemo` class demonstrates two ways to create a Warrior object:
+1. Using the default constructor
+2. Using a custom constructor with parameters (name, health, strength)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Learning Objectives
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+This project helps students understand:
+- Constructor overloading
+- Inheritance in Java
+- Method overriding
+- Object creation and initialization
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## License
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+This project is intended for educational purposes.
